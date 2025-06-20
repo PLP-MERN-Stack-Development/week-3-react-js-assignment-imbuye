@@ -1,12 +1,51 @@
-# React + Vite
+# React Task Manager 🧠 + Comments Viewer 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React application built with **Vite**, **JSX**, and **Tailwind CSS**. It includes:
 
-Currently, two official plugins are available:
+- 🧩 Reusable components (Button, Card, Navbar, Footer)
+- ✅ Task Manager (add, complete, delete, filter tasks)
+- 🌐 Comments fetched from a real API (DummyJSON)
+- 🔍 Search and pagination for comments
+- 🌙 Light/Dark mode toggle with `useContext`
+- 💅 Clean responsive UI using Tailwind utility classes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Click here to view the deployed app]([![Netlify Status](https://api.netlify.com/api/v1/badges/f8126aed-3419-458a-a955-d3dfcaecf36b/deploy-status)](https://app.netlify.com/projects/ivette-react-task-manager/deploys))
+
+---
+
+## 🧪 Features
+
+| Feature         | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| ✅ Task Manager | Add, complete, delete, and filter tasks                                     |
+| 💬 API Fetching | Fetch readable English comments from DummyJSON                             |
+| 🔍 Search       | Search through usernames or comment content                                |
+| ➕ Pagination    | Paginate comment list (10 per page)                                         |
+| 🌙 Theme Toggle | Switch between Light/Dark mode using context & Tailwind                     |
+| 📱 Responsive    | Works smoothly on mobile, tablet, and desktop                              |
+| 💻 Built With    | React, Vite, Tailwind CSS, JavaScript, DummyJSON API                       |
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   ├── PostList.jsx
+│   └── TaskManager.jsx
+├── context/
+│   └── ThemeContext.jsx
+├── layouts/
+│   └── Layout.jsx
+├── App.jsx
+└── main.jsx
+
