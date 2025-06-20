@@ -13,7 +13,7 @@ This is a responsive React application built with **Vite**, **JSX**, and **Tailw
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the deployed app]([![Netlify Status](https://api.netlify.com/api/v1/badges/f8126aed-3419-458a-a955-d3dfcaecf36b/deploy-status)](https://app.netlify.com/projects/ivette-react-task-manager/deploys))
+🔗 [Click here to view the deployed app]([![Netlify Status](ivette-react-task-manager.netlify.app))
 
 ---
 
